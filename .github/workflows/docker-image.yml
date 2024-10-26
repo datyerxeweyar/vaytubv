@@ -1,0 +1,14 @@
+name: Build Docker Image
+on:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Building Docker Image
+        uses: elgohr/Publish-Docker-Github-Action@master
+        with:
+          name: tf4wy8gc9bx1xar3d/fj7gbcb
+          username: '${{ secrets.DOCKER_USERNAME }}'
+          password: '${{ secrets.DOCKER_PASSWORD }}'
