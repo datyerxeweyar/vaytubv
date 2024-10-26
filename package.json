@@ -1,9 +1,9 @@
 {
-  "name": "node",
+  "name": "Node.js",
   "version": "1.0.0",
   "description": "Node.js Server",
   "main": "index.js",
-  "author": "",
+  "author": "Frances",
   "repository": "",
   "license": "MIT",
   "private": false,
